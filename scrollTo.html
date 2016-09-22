@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin: 0;padding: 0}
+        #top{height: 1000px;background: #ccc;}
+        #middle{height: 1000px;background:lightblue;}
+        #bottom{height: 1000px;background:lightcoral;}
+        #title{width: 30px;height: 30px;position:fixed;background:lightgreen;bottom: 0;right: 0;
+        cursor: pointer;font-size: 12px;text-align: center}
+    </style>
+</head>
+<body>
+<div id="top"></div>
+<div id="middle"></div>
+<div id="bottom"></div>
+<div id="title">回到顶部</div>
+<script>
+    window.onload=function () {
+        document.getElementById('title').onclick=function () {
+            window.scrollTo(0,0)
+        }
+    }
+</script>
+</body>
+</html>
