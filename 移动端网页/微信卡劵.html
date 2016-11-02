@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <style>
+        body {background: #f4f4f4}
+        .cf:after {content: "";display: table;clear: both;}
+        .cf {*zoom:1}
+        *{margin: 0;padding: 0}
+        ul li {list-style: none}
+        .nav-head {border-bottom: 0.01rem solid #ccc;background: #fff}
+        .start-nav li {float: left;font-size: 0.3rem}
+        .start-nav li:nth-of-type(1) {padding: 0.25rem}
+        .start-nav li:nth-of-type(3) {padding: 0.25rem}
+        .start-nav li:nth-of-type(2) {padding: 0.25rem 1.7rem 0.25rem 2.05rem;font-weight: bold}
+        .start-nav li img {width: 0.26rem;height: 0.36rem}
+        .start-nav li:nth-of-type(3) div {border: 0.01rem solid #ccc;width: 0.36rem;height: 0.05rem;background: #666666;
+        border-radius:20%;margin-bottom: 0.06rem}
+
+        .main-center {width: 6rem;height: 2.51rem;margin:0 auto;overflow: hidden;margin-top: 0.2rem;
+            background:url("3.png") no-repeat;
+            background-size: 6rem 2.51rem; }
+        .main-center1 div:nth-of-type(1) {float: left;font-size: 0.25rem;color: #fff;font-weight: bold;margin-left: 0.25rem;
+        margin-top: 0.25rem}
+        .main-center1 div img {width:0.63rem;height:0.63rem;margin-right:0.12rem;vertical-align: middle}
+        .parsent {font-size: 0.25rem;width: 1.6rem;height: 0.421rem;border: 0.01rem solid #ccc;
+        line-height: 0.421rem;text-align: center;float: right;margin-top: 0.1rem;transform: rotate(45deg);
+            margin-right:-0.50rem;background: #d7fcd2;color:#58ab7a;font-weight: bold;
+        }
+        .main-footer {margin-top: 0.22rem}
+        .main-footer div {float: left}
+        .main-footer div:nth-of-type(1) {margin-left: 0.87rem}
+        .main-footer div:nth-of-type(1) img {width: 0.77rem;height: 0.87rem}
+        .main-footer div:nth-of-type(2) {width: 0.01rem;height: 0.69rem;background: #fff;margin: 0.25rem 0.36rem}
+        .main-footer div:nth-of-type(3) {margin-top: 0.25rem;color: #fff}
+        .main-footer div:nth-of-type(3) p:nth-of-type(1) {font-size: 0.35rem}
+        .main-footer div:nth-of-type(3) p:nth-of-type(2) {font-size: 0.2rem}
+        .qr-code {font-size: 0.2rem;color: #a0a0a0;text-align: center;width:6rem;margin: 0 auto;
+        border: 0.01rem solid #ccc;border-top: none;border-radius:0 0 3% 3%;display: none;box-sizing: border-box}
+        .qr-code img {width: 2.22rem;height: 2.22rem;margin-top: 0.4rem}
+        .qr-code p:nth-of-type(1) {margin-top: 0.24rem;margin-bottom: 0.1rem}
+        .qr-code p:nth-of-type(2) {margin-bottom: 0.3rem}
+        .explain-sox {border-top: 0.01rem solid #ccc;border-bottom: 0.01rem solid #ccc;margin-top: 0.2rem;
+            padding-left: 0.2rem;background: #fff}
+        .explain {height: 0.79rem;font-size: 0.25rem;line-height: 0.79rem;font-weight:bold;padding-left: 0.2rem;}
+        .explain:nth-of-type(1) { border-bottom: 0.01rem solid #ccc}
+        .explain:nth-of-type(2) { border-bottom: 0.01rem solid #ccc}
+        .explain img {width: 0.11rem;height: 0.21rem;margin-left:4.6rem}
+        .receive {display: block;padding:0.24rem 0;background: #ff7f02;color: #fff;font-size:0.3rem;
+          text-align: center;margin-left: 0.2rem;margin-right: 0.2rem;text-decoration: none;margin-top: 0.6rem}
+        .card-holder a {text-decoration: none;font-size: 0.26rem;color: #737ed5}
+        .card-holder {text-align: center;margin-top: 2.94rem;margin-bottom: 0.2rem}
+    </style>
+    <title>Title</title>
+</head>
+<body>
+<div class="nav-head">
+    <ul class="start-nav cf">
+        <li><img src="1.png"></li>
+        <li>优惠券</li>
+        <li>
+            <div></div>
+            <div></div>
+            <div></div>
+        </li>
+    </ul>
+</div>
+
+    <div class="main-center">
+        <div class="main-center1 cf">
+        <div><img src="4.png">美乐乐家居旗舰店</div>
+        <div class="parsent">礼品券</div>
+        </div>
+        <div class="main-footer cf">
+            <div><img src="5.png"></div>
+            <div></div>
+            <div>
+                <p>金秋10月优惠券</p>
+                <p>领取1天后生效,有效期限30天</p>
+            </div>
+        </div>
+    </div>
+    <div class="qr-code">
+        <img src="6.png">
+        <p>mll15613213546</p>
+        <p>将本页展示给店员即可使用</p>
+    </div>
+<div class="explain-sox">
+<div class="explain">使用说明<img src="7.png"></div>
+<div class="explain">适用门店<img src="7.png"></div>
+<div class="explain">客服电话<img src="7.png"></div>
+</div>
+<a href="#" class="receive" id="receive">领 取</a>
+<div class="card-holder"><a href="#">查看我的卡包>></a></div>
+<script>
+    new function () {
+        var _self = this;
+        _self.width = 640; // 设置默认最大宽度
+        _self.fontSize = 100; // 默认字体大小
+        _self.widthProportion = function () {
+            var p = (document.body && document.body.clientWidth || document.getElementsByTagName("html")[0].offsetWidth) / _self.width;
+            return p;
+        };
+        _self.changePage = function () {
+            document.getElementsByTagName("html")[0].setAttribute("style", "font-size:" + _self.widthProportion() * _self.fontSize + "px !important");
+        };
+        _self.changePage();
+        window.addEventListener('resize', function () {
+            _self.changePage();
+        }, false);
+    };
+</script>
+<script>
+    var receive=document.getElementById('receive');
+    var qrCode=document.getElementsByClassName('qr-code')[0];
+    receive.onclick=function () {
+            qrCode.style.display='block';
+        event.preventDefault();
+    }
+</script>
+</body>
+</html>
